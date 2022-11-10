@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css.css"/>
+    <link rel="stylesheet" href="./feedback.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="icon" href="favvv.ico" />
+  </head>
+  <body class="feedback">
+    <section id="title">
+
+    <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
+     <a class="navbar-brand" href="">Know around😎</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav ml-auto">
+         <li class="nav-item">
+             <a class="nav-link" href="index.html">Home</a>
+         </li>
+         <li class="nav-item">
+             <a class="nav-link" href="#footer">Contact us</a>
+         </li>
+
+     </ul>
+  </div>
+  </nav>
+  <h2>Please fill the form!!</h2>
+  <section class="form">
+    <form  action="feedbackvisit.php" method="POST" class=foorm>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputfname">FIRST NAME</label>
+          <input type="text" class="form-control" id="inputfname" placeholder="First name" name="firstname" required>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputlname">LAST NAME</label>
+          <input type="text" class="form-control" id="inputlname" placeholder="Last name" name="lastname">
+        </div>
+      </div>
+   <div class="form-row">
+     <div class="form-group col-md-6">
+       <label for="inputEmail4">Email</label>
+       <input type="email" class="form-control" id="inputEmail4" placeholder="Email" name="email">
+     </div>
+     <div class="form-group col-md-6">
+       <label for="phonenumber">Phone Number</label>
+       <input type="phonenumber" class="form-control" id="phonenumber" placeholder="Phone Number" name="phonenumber">
+     </div>
+   </div>
+   <div class="form-row">
+     <div class="form-group col-md-4">
+       <label for="inputState">Select the place you visited</label>
+       <select id="inputcafe" name="visit" class="form-control" required>
+         <option>Nitte Arbi Falls</option>
+         <option>Durga Water Falls</option>
+         <option>Gomateshwara Statue</option>
+         <option>Varanga Basadi</option>
+         <option>Sirimane Waterfalls</option>
+         <option>Kundadri</option>
+         <option>Chaturmukha Basadi</option>
+         <option>Padubidri Beach</option>
+         <option>Kudlu Theertha Falls</option>
+         <option>Kudremukh</option>
+         <option>Sammilan Shetty's Butterfly Park</option>
+         <option>Konaje Kallu</option>
+       </select>
+     </div>
+     <div class="form-group col-md-6 dayy">
+       <label for="dayvisited">Day Visited</label>
+       <input type="date" class="form-control" id="dayvisited" placeholder="Day visited" name="dayy">
+       </div>
+     </div>
+       <div class="form-row">
+        <div class="form-group col-md-6">
+          <div class="rating "> <input type="radio" name="ratings" value="5" id="5"><label for="5">☆</label>
+             <input type="radio" name="ratings" value="4" id="4"><label for="4">☆</label>
+             <input type="radio" name="ratings" value="3" id="3"><label for="3">☆</label>
+             <input type="radio" name="ratings" value="2" id="2"><label for="2">☆</label>
+              <input type="radio" name="ratings" value="1" id="1"><label for="1">☆</label>
+          </div>
+          <!-- <label for="ratings">Ratings</label>
+        <div class="stars" data-rating="3">
+        <span class="star" value="1" >&nbsp;</span>
+        <span class="star" value="2" >&nbsp;</span>
+        <span class="star" value="3">&nbsp;</span>
+        <span class="star" value="4">&nbsp;</span>
+        <span class="star" value="5">&nbsp;</span>
+        <input type="hidden" id="ratings" name="ratings" >
+
+       </div> -->
+      </div>
+      <div class=form-group-col-md-6>
+        <label for="foodquality">Sightseeing/Tour</label><br>
+        <input type="radio" id="Excellent" name="experience" value="Excellent">
+        <label for="male">Excellent</label><br>
+        <input type="radio" id="Good" name="experience" value="Good">
+        <label for="female">Good</label><br>
+        <input type="radio" id="Average" name="experience" value="Average">
+        <label for="other">Average</label><br />
+        <input type="radio" id="Dissatisfied" name="experience" value="Dissatisfied">
+        <label for="other">Poor</label>
+      </div>
+
+     </div>
+    <div class="form-group">
+    <label for="Reviews">Reviews</label>
+    <textarea class="form-control" id="Reviews" rows="3" name="reviews" required></textarea>
+  </div>
+   </div>
+   <button type="submit" class="btn btn-primary">Submit</button>
+ </form>
+
+
+  </section>
+  </section>
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Know around😎</h4>
+          <p>
+             Hope we helped you to know Nitte better!!<br />
+             Visit Again👏
+          </p>
+
+        </div>
+        <div class="col-md-4">
+          <h4>Quick contact</h4>
+          <p>
+            <i class="fa fa-phone">9480558411</i>
+          </p>
+          <p>
+            <i class="fa fa-envelope">abc@gmail.com</i>
+          </p>
+        </div>
+        <div class="col-md-4">
+          <h4>Follow us</h4>
+          <p>
+            <i class="fa fa-instagram"><span>  </span>Instagram</i>
+          </p>
+          <p>
+           <i class="fa fa-facebook"> <span>  </span>Facebook</i>
+          </p>
+        </div>
+
+    <hr />
+    <div>
+    <p class="ftext">
+      Made with ❤ from Prajna and Prarthana K</p>
+    </div>
+   </div>
+ </div>
+ <!-- <script src="./feedback.js" charset="utf-8"></script> -->
+ <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
+  </body>
+</html>

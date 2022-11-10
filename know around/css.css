@@ -1,0 +1,142 @@
+h1{
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  padding-top: 80px;
+  color:#1d2d50;
+}
+h2{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color:#1d2d50 ;
+}
+
+.carousel-caption{
+  color:black;
+   position: absolute;
+   top: 38%;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  color:white;
+  font-family: sans-serif;
+}
+h5{
+  color:white;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bolder;
+  text-shadow: .1rem .1rem .8rem black;
+    font-family: sans-serif;
+}
+.cafes{
+  padding-right: 30px;
+}
+.textt{
+  padding-top: 60px;
+}
+
+.feedform{
+  color: #7d0633;
+  font-style:italic;
+  font-family: cursive;
+}
+.immg img{
+  position:relative;
+  padding-top:50px;
+  width:100%;
+}
+.textt{
+  margin-top: -40px;
+}
+#footer{
+  background-color:#fabea7 ;
+}
+.iim img{
+  width:50%;
+  margin-bottom: 30px;
+  margin-top:30px;
+  padding-left: 50px;
+}
+.iim img:hover{
+  transform: scale(1.5);
+}
+.overlay{
+   font-weight: bold;
+   color:black;
+   margin-left: 40px;
+}
+.htext{
+  margin-left: 30px;
+}
+.ftext{
+  margin-top: 30px;
+  font-size: 70%;
+}
+.bimg img{
+  position:relative;
+  width:70%;
+
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.btext{
+  text-align: center;
+  padding-top: 200px;
+}
+#footer{
+  padding-top: 40px;
+  color:black;
+}
+.cafees{
+  background-color: #a3d2ca;
+}
+
+.star{
+          color: goldenrod;
+          font-size: 2.0rem;
+          padding: 0 1rem; /* space out the stars */
+}
+.star::before{
+          content: '\2606';    /* star outline */
+          cursor: pointer;
+}
+.star.rated::before{
+          /* the style for a selected star */
+          content: '\2605';  /* filled star */
+}
+
+.stars{
+            counter-reset: rateme 0;
+            font-size: 2.0rem;
+            font-weight: 900;
+}
+.star.rated{
+            counter-increment: rateme 1;
+}
+.stars::after{
+            content: counter(rateme) '/5';
+}
+.foorm{
+  size:50%;
+  margin:50px 50px 0px 50px;
+
+}
+.apps{
+  color:black;
+}
+
+.dayy{
+  margin-left: 90px;
+}
+h2{
+  text-align: center;
+  color:white;
+  font-family: sans-serif;
+}
+.intermediate{
+  margin: 30px;
+  margin-left:30px;
+}
+.intermediate1{
+  margin-left: 30px;
+}
